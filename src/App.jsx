@@ -1,10 +1,21 @@
 // 1. 
-
-function App() {
 const JSX = <h1>Hello JSX!</h1>;
-return JSX;
-}
 
-export default App;
+//2. 
+const JSX1 = 
+  <div>
+    <h1>Meu Título</h1>
+    <p>Este é um parágrafo de exemplo.</p>
+    <ul>
+      <li>Primeiro item</li>
+      <li>Segundo item</li>
+      <li>Terceiro item</li>
+    </ul>
+  </div>;
+
+
+
+
+
 
 
