@@ -32,7 +32,7 @@ const JSX4 = (
   </div>
 );
 
-// Add your code below this line
+
 ReactDOM.render(JSX4, document.getElementById('challenge-node'));
 
 //5 
@@ -51,3 +51,12 @@ const JSX6 = (
     <hr />
   </div>
 );
+
+7//
+const MyComponent = function() {
+  
+  return (
+    <div>I am a stateless functional component!</div>
+  );
+  
+}
