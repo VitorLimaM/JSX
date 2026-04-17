@@ -52,11 +52,28 @@ const JSX6 = (
   </div>
 );
 
-7//
+//7
 const MyComponent = function() {
-  
+  // Change code below this line
   return (
     <div>I am a stateless functional component!</div>
   );
-  
+  // Change code above this line
 }
+
+//8 
+class MyComponent1 extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    // Change code below this line
+    return (
+      <div>
+        <h1>Hello React!</h1>
+      </div>
+    );
+    // Change code above this line
+  }
+};
+
