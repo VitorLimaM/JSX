@@ -34,3 +34,10 @@ const JSX4 = (
 
 // Add your code below this line
 ReactDOM.render(JSX4, document.getElementById('challenge-node'));
+
+//5 
+const JSX5 = (
+  <div className="myDiv">
+    <h1>Add a class to this div</h1>
+  </div>
+);
