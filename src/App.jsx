@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 // 1. 
 const JSX = <h1>Hello JSX!</h1>;
 
@@ -11,11 +20,15 @@ const JSX1 =
       <li>Segundo item</li>
       <li>Terceiro item</li>
     </ul>
-  </div>;
+  </div>
 
-
-
-
-
-
-
+  //3.
+  const JSX3 = (
+  <div>
+    
+    <h1>This is a block of JSX</h1>
+    <p>Here's a subtitle</p>
+    {/* This is a comment inside JSX */}
+  </div>
+  
+);
