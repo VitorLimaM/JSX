@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 // 1. 
 const JSX = <h1>Hello JSX!</h1>;
 
@@ -32,3 +23,14 @@ const JSX1 =
   </div>
   
 );
+
+//4
+const JSX4 = (
+  <div>
+    <h1>Hello World</h1>
+    <p>Lets render this to the DOM</p>
+  </div>
+);
+
+// Add your code below this line
+ReactDOM.render(JSX4, document.getElementById('challenge-node'));
